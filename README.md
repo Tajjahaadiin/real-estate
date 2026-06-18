@@ -1,12 +1,12 @@
 # Estate Services — SvelteKit
 
-A static-site reinterpretation of the WordPress "Real Estate Services" theme, rebuilt with **SvelteKit (Svelte 5) + Tailwind CSS v4 + adapter-static** for SSG output.
+A SvelteKit reinterpretation of the WordPress "Real Estate Services" theme, rebuilt with **SvelteKit (Svelte 5) + Tailwind CSS v4**.
 
 ## Stack
 
 - **SvelteKit 2** with Svelte 5 (runes: `$state`, `$derived`, `$props`, `$effect`)
-- **Tailwind CSS v4** via `@tailwindcss/vite` (no PostCSS config needed)
-- **adapter-static** — outputs fully static HTML to `./build/`
+- **Tailwind CSS v4** via `@tailwindcss/vite`
+- **adapter-auto** — optimized for Vercel, Netlify, and other platforms
 - **TypeScript** throughout
 - **Zero external UI deps** — all icons are inline SVG paths in `Icon.svelte`
 
@@ -17,14 +17,15 @@ npm install
 npm run dev        # http://localhost:5173
 ```
 
-## Production build
+## Deployment
 
-```bash
-npm run build      # emits static site to ./build/
-npm run preview    # preview the built site locally
-```
+This project is ready to be deployed to **Vercel**. It uses `@sveltejs/adapter-auto` to automatically configure the environment.
 
-The `build/` directory is fully static — drop it on Netlify, Vercel, Cloudflare Pages, GitHub Pages, or any S3 bucket.
+1. Push this repository to GitHub/GitLab/Bitbucket.
+2. Import the project into Vercel.
+3. Vercel will automatically detect SvelteKit and deploy.
+
+The project is configured with `trailingSlash: 'always'`, and a `vercel.json` is included to ensure consistent behavior.
 
 ## Project structure
 

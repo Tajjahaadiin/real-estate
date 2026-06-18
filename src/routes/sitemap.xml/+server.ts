@@ -1,8 +1,9 @@
 import type { RequestHandler } from './$types';
 import { properties } from '$lib/data/properties';
 import { blogPosts } from '$lib/data/blogPosts';
+import { env } from '$env/dynamic/public';
 
-const BASE = 'https://estate-services.example.com';
+const BASE = env.PUBLIC_SITE_URL || 'https://estate-services.example.com';
 
 export const prerender = true;
 
