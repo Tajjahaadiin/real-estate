@@ -13,7 +13,7 @@
 
 <svelte:head>
   <title>Contact Estate Services</title>
-  <meta name="description" content="Get in touch with Estate Services. Visit our San Francisco office, call us, or send a message \u2014 we respond within one business day." />
+  <meta name="description" content="Get in touch with Estate Services. Visit our San Francisco office, call us, or send a message   we respond within one business day." />
 </svelte:head>
 
 <!-- Header -->
@@ -24,9 +24,11 @@
       <Icon name="chevron-right" class="w-3 h-3" />
       <span class="text-stone-200">Contact</span>
     </nav>
-    <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">Let\u2019s talk</h1>
+    <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight !text-white">
+      Let s talk
+    </h1>
     <p class="mt-3 text-stone-300 max-w-2xl">
-      Whether you\u2019re ready to buy, sell, or just have a question about the market, we\u2019d love to hear from you. Most messages get a reply within one business day.
+      Whether you re ready to buy, sell, or just have a question about the market, we d love to hear from you. Most messages get a reply within one business day.
     </p>
   </div>
 </section>
@@ -60,12 +62,12 @@
     <div class="mt-10 grid lg:grid-cols-5 gap-8">
       <div class="lg:col-span-3">
         <h2 class="font-display text-2xl font-bold text-stone-900 mb-1">Send us a message</h2>
-        <p class="text-stone-600 mb-5">Fill out the form below and we\u2019ll route your message to the right specialist.</p>
+        <p class="text-stone-600 mb-5">Fill out the form below and we  route your message to the right specialist.</p>
         <ContactForm />
       </div>
       <div class="lg:col-span-2">
         <h2 class="font-display text-2xl font-bold text-stone-900 mb-1">Find us</h2>
-        <p class="text-stone-600 mb-5">We\u2019re on the 12th floor of the historic Sutter Building in downtown San Francisco.</p>
+        <p class="text-stone-600 mb-5">We re on the 12th floor of the historic Sutter Building in downtown San Francisco.</p>
         <div class="rounded-2xl overflow-hidden border border-stone-200 aspect-[4/3] bg-stone-100">
           <iframe
             title="Office map"

@@ -8,7 +8,7 @@
   }
   let {
     title = 'Ready to find your next place?',
-    subtitle = 'Talk to a local agent who knows your market. No pressure, no obligation — just an honest conversation about what\u2019s possible.'
+    subtitle = 'Talk to a local agent who knows your market. No pressure, no obligation — just an honest conversation about what s possible.'
   }: Props = $props();
 </script>
 

@@ -45,8 +45,8 @@
         <span class="w-1.5 h-1.5 rounded-full bg-brand-400 animate-pulse"></span>
         {siteConfig.tagline}
       </span>
-      <h1 class="mt-5 font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.05] tracking-tight">
-        Find a place you\u2019ll<br class="hidden sm:block" />
+      <h1 class="mt-5 font-display text-4xl sm:text-5xl lg:text-6xl font-bold !text-white leading-[1.05] tracking-tight">
+        Find a place you’ll<br class="hidden sm:block" />
         love to <span class="text-brand-400">call home.</span>
       </h1>
       <p class="mt-5 text-lg text-stone-300 max-w-xl leading-relaxed">

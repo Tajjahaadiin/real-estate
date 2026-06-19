@@ -13,7 +13,7 @@
     },
     {
       title: 'Who we share it with',
-      body: 'We share your information only with parties necessary to complete a transaction: your mortgage lender, title company, escrow agent, inspector, and the other party\u2019s agent. We may also share information when required by law or to protect our legal rights.'
+      body: 'We share your information only with parties necessary to complete a transaction: your mortgage lender, title company, escrow agent, inspector, and the other party s agent. We may also share information when required by law or to protect our legal rights.'
     },
     {
       title: 'How long we keep it',

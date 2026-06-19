@@ -10,7 +10,7 @@
   import { stats } from '$lib/data/siteConfig';
 
   const values = [
-    { icon: 'shield', title: 'Integrity first', body: 'We tell you what you need to hear, not what makes the sale. Our agents are paid the same regardless of which property you choose \u2014 so there\u2019s no incentive to push you toward a bad fit.' },
+    { icon: 'shield', title: 'Integrity first', body: 'We tell you what you need to hear, not what makes the sale. Our agents are paid the same regardless of which property you choose   so there s no incentive to push you toward a bad fit.' },
     { icon: 'pin', title: 'Local expertise', body: 'Every agent on our team has lived in the Bay Area for at least a decade. We know the school districts, the commute patterns, the micro-climates, and the zoning quirks of each neighborhood.' },
     { icon: 'trend', title: 'Data-driven', body: 'Every list price, every offer, every cash-flow projection is backed by live MLS data and 90-day comparables. We will show you the math behind every recommendation.' },
     { icon: 'clock', title: 'Same-day reply', body: 'Your agent picks up the phone. Your property manager responds within one business day. We built our reputation on being reachable when it matters.' }
@@ -41,7 +41,7 @@
       <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur border border-white/20 text-xs font-medium uppercase tracking-widest">
         About Estate Services
       </span>
-      <h1 class="mt-5 font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
+      <h1 class="mt-5 font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight !text-white">
         Local agents. <span class="text-brand-400">Honest advice.</span><br /> Since 2007.
       </h1>
       <p class="mt-5 text-lg text-stone-300 max-w-2xl leading-relaxed">
@@ -65,13 +65,13 @@
       <SectionHeading eyebrow="Our story" title="A boutique brokerage with deep Bay Area roots" align="left" />
       <div class="mt-6 space-y-4 text-stone-700 leading-relaxed">
         <p>
-          Estate Services was founded in 2007 by a small group of agents who had grown frustrated with the transaction-first culture of the big national brokerages. They wanted to build a firm where agents stayed with their clients for years \u2014 not just until the commission cleared.
+          Estate Services was founded in 2007 by a small group of agents who had grown frustrated with the transaction-first culture of the big national brokerages. They wanted to build a firm where agents stayed with their clients for years   not just until the commission cleared.
         </p>
         <p>
           Eighteen years later, that conviction is still our north star. We deliberately stay small: a tight team of senior agents, each with at least a decade of local experience, each carrying a manageable book of clients so they can give every transaction the attention it deserves.
         </p>
         <p>
-          We\u2019ve grown carefully \u2014 adding property management in 2012, a commercial division in 2017, and an investment advisory practice in 2020 \u2014 but only when we could do so without compromising the personal attention that defines us. Today we cover 36 cities across Northern California and refer out beyond that to a vetted network of partners who share our standards.
+          We ve grown carefully   adding property management in 2012, a commercial division in 2017, and an investment advisory practice in 2020   but only when we could do so without compromising the personal attention that defines us. Today we cover 36 cities across Northern California and refer out beyond that to a vetted network of partners who share our standards.
         </p>
       </div>
     </div>
@@ -90,7 +90,7 @@
 <!-- Values -->
 <section class="section-pad bg-white border-y border-stone-200">
   <div class="container-x">
-    <SectionHeading eyebrow="What we stand for" title="Four values that shape every transaction" subtitle="These aren\u2019t marketing slogans \u2014 they\u2019re the operating principles we hire, fire, and promote against." />
+    <SectionHeading eyebrow="What we stand for" title="Four values that shape every transaction" subtitle="These aren t marketing slogans   they re the operating principles we hire, fire, and promote against." />
     <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {#each values as v (v.title)}
         <div class="p-6 rounded-2xl bg-stone-50 border border-stone-200">
@@ -127,7 +127,7 @@
 <!-- Team -->
 <section class="section-pad bg-white border-t border-stone-200">
   <div class="container-x">
-    <SectionHeading eyebrow="Meet the team" title="The agents you\u2019ll work with" subtitle="A small, senior team \u2014 each with a decade-plus of Bay Area experience and a clear specialty." />
+    <SectionHeading eyebrow="Meet the team" title="The agents you  work with" subtitle="A small, senior team   each with a decade-plus of Bay Area experience and a clear specialty." />
     <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
       {#each agents as agent (agent.id)}
         <AgentCard {agent} />
@@ -151,7 +151,7 @@
 <!-- FAQ -->
 <section class="section-pad bg-white border-t border-stone-200">
   <div class="container-x max-w-3xl">
-    <SectionHeading eyebrow="Good questions" title="Frequently asked" subtitle="The questions we hear most often from buyers, sellers, and landlords. Don\u2019t see yours? Just call us \u2014 we\u2019re happy to talk through it." />
+    <SectionHeading eyebrow="Good questions" title="Frequently asked" subtitle="The questions we hear most often from buyers, sellers, and landlords. Don t see yours? Just call us   we re happy to talk through it." />
     <div class="mt-10 space-y-3">
       {#each faqs as faq, i (faq.question)}
         <details class="group rounded-2xl bg-stone-50 border border-stone-200 overflow-hidden">
@@ -170,4 +170,4 @@
   </div>
 </section>
 
-<CTASection title="Let\u2019s find your next chapter." subtitle="Whether you\u2019re ready to list, ready to buy, or just exploring options \u2014 we\u2019d love to hear what you have in mind." />
+<CTASection title="Let s find your next chapter." subtitle="Whether you re ready to list, ready to buy, or just exploring options   we d love to hear what you have in mind." />

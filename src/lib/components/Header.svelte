@@ -34,7 +34,7 @@
       </span>
       <span class="flex flex-col leading-none">
         <span class="font-display font-bold text-lg text-stone-900">{siteConfig.name}</span>
-        <span class="text-[11px] uppercase tracking-widest text-brand-700">Real Estate</span>
+        <span class="text-[11px] uppercase tracking-widest text-brand-700">Dspace</span>
       </span>
     </a>
 

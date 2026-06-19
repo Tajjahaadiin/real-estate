@@ -104,4 +104,4 @@
   </section>
 {/if}
 
-<CTASection title="Ready to make a move?" subtitle="Talk to one of our agents about what you just read \u2014 we\u2019re happy to dig into the specifics of your situation." />
+<CTASection title="Ready to make a move?" subtitle="Talk to one of our agents about what you just read   we re happy to dig into the specifics of your situation." />

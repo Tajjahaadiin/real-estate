@@ -21,7 +21,7 @@
     },
     {
       title: 'Intellectual property',
-      body: 'All content on this site \u2014 including text, graphics, logos, photography, and software \u2014 is the property of Estate Services or its licensors and is protected by U.S. and international copyright law. Property photographs may be subject to additional licensing restrictions from the listing agent or photographer.'
+      body: 'All content on this site   including text, graphics, logos, photography, and software   is the property of Estate Services or its licensors and is protected by U.S. and international copyright law. Property photographs may be subject to additional licensing restrictions from the listing agent or photographer.'
     },
     {
       title: 'Limitation of liability',

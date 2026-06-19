@@ -9,14 +9,14 @@
   let { page, totalPages, onpage }: Props = $props();
 
   // Build a compact page list (always show first, last, current ± 1)
-  function pageList(): (number | '\u2026')[] {
+  function pageList(): (number | ' ')[] {
     if (totalPages <= 7) return Array.from({ length: totalPages }, (_, i) => i + 1);
-    const pages: (number | '\u2026')[] = [1];
+    const pages: (number | ' ')[] = [1];
     const start = Math.max(2, page - 1);
     const end = Math.min(totalPages - 1, page + 1);
-    if (start > 2) pages.push('\u2026');
+    if (start > 2) pages.push(' ');
     for (let i = start; i <= end; i++) pages.push(i);
-    if (end < totalPages - 1) pages.push('\u2026');
+    if (end < totalPages - 1) pages.push(' ');
     pages.push(totalPages);
     return pages;
   }
@@ -35,8 +35,8 @@
     </button>
 
     {#each pageList() as p, i}
-      {#if p === '\u2026'}
-        <span class="px-2 text-stone-400">\u2026</span>
+      {#if p === ' '}
+        <span class="px-2 text-stone-400"> </span>
       {:else}
         <button
           type="button"

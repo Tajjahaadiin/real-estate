@@ -49,9 +49,11 @@
       <Icon name="chevron-right" class="w-3 h-3" />
       <span class="text-stone-200">Blog</span>
     </nav>
-    <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">From the blog</h1>
+    <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight !text-white">
+      From the blog
+    </h1>
     <p class="mt-3 text-stone-300 max-w-2xl">
-      Market analysis, neighborhood spotlights, and practical guides for buyers, sellers, and landlords \u2014 written by our agents.
+      Market analysis, neighborhood spotlights, and practical guides for buyers, sellers, and landlords   written by our agents.
     </p>
   </div>
 </section>
@@ -76,7 +78,7 @@
       <input
         type="search"
         bind:value={search}
-        placeholder="Search articles\u2026"
+        placeholder="Search articles "
         class="w-full pl-9 pr-3 py-2 rounded-lg bg-stone-50 border border-stone-200 focus:border-brand-500 focus:bg-white focus:ring-2 focus:ring-brand-100 outline-none text-sm"
       />
     </div>

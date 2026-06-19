@@ -1,11 +1,11 @@
 import type { SiteConfig } from '$lib/types';
 
 export const siteConfig: SiteConfig = {
-  name: 'Estate Services',
+  name: 'Digital Space Indonesia',
   tagline: 'Find your place. Live your story.',
-  phone: '+1 (415) 555-0199',
-  email: 'hello@estate-services.example.com',
-  address: '450 Sutter Street, Suite 1200, San Francisco, CA 94108',
+  phone: '+62 851-6269-9112',
+  email: 'digitalspaceindonesia.id@gmail.com',
+  address: 'Perumahan Green Kramat Jati, Jalan Batu Tumbuh, RT.11/RW.9, Kramatjati, Kramat Jati, KOTA JAKARTA TIMUR, KRAMAT JATI, DKI JAKARTA',
   hours: 'Mon–Fri 9am–6pm · Sat 10am–4pm',
   socials: {
     twitter: 'https://twitter.com/',

@@ -10,7 +10,7 @@ export const properties: Property[] = [
     description:
       'Restored 1908 Victorian with original mouldings, modern kitchen, and a south-facing garden.',
     longDescription:
-      'This three-bedroom Victorian has been lovingly restored over the last decade, preserving its bay windows, picture rails, and pocket doors while introducing a chef\u2019s kitchen, radiant-floor heat, and a fully permitted rear addition. The south-facing garden gets sun all afternoon and has a detached studio perfect for a home office or guest suite.',
+      'This three-bedroom Victorian has been lovingly restored over the last decade, preserving its bay windows, picture rails, and pocket doors while introducing a chef s kitchen, radiant-floor heat, and a fully permitted rear addition. The south-facing garden gets sun all afternoon and has a detached studio perfect for a home office or guest suite.',
     status: 'for-sale',
     type: 'house',
     kind: 'sale',
@@ -38,7 +38,7 @@ export const properties: Property[] = [
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1600&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1600&auto=format&fit=crop'
     ],
-    amenities: ['South-facing garden', 'Detached studio', 'Radiant floor heat', 'Chef\u2019s kitchen'],
+    amenities: ['South-facing garden', 'Detached studio', 'Radiant floor heat', 'Chef s kitchen'],
     features: ['Renovated kitchen', 'Hardwood floors', 'Forced air', 'Tankless water heater', 'Smart thermostat'],
     createdAt: '2025-04-12T09:00:00.000Z'
   },
@@ -48,7 +48,7 @@ export const properties: Property[] = [
     title: 'Rincon Hill Skyline Condo',
     description: 'Corner-unit 2BR condo with floor-to-ceiling windows and Bay Bridge views.',
     longDescription:
-      'Perched on the 32nd floor of the premier Rincon Hill tower, this corner two-bedroom offers unobstructed views of the Bay Bridge and the Ferry Building clocktower. Building amenities include 24-hour concierge, rooftop deck, fitness center, and a private owners\u2019 lounge. HOA covers water, trash, and seismic insurance.',
+      'Perched on the 32nd floor of the premier Rincon Hill tower, this corner two-bedroom offers unobstructed views of the Bay Bridge and the Ferry Building clocktower. Building amenities include 24-hour concierge, rooftop deck, fitness center, and a private owners  lounge. HOA covers water, trash, and seismic insurance.',
     status: 'for-sale',
     type: 'condo',
     kind: 'sale',
@@ -84,7 +84,7 @@ export const properties: Property[] = [
     title: 'Noe Valley Family Home',
     description: 'Four-bedroom Craftsman with finished basement and a flat rear yard.',
     longDescription:
-      'A turnkey family home on one of Noe Valley\u2019s sunniest blocks. The main level has a flowing living-dining-kitchen layout with bay views from the front parlor. Downstairs is a fully finished basement with a separate entrance — ideal for an au pair suite or income unit. Walk to 24th Street shops in five minutes.',
+      'A turnkey family home on one of Noe Valley sunniest blocks. The main level has a flowing living-dining-kitchen layout with bay views from the front parlor. Downstairs is a fully finished basement with a separate entrance — ideal for an au pair suite or income unit. Walk to 24th Street shops in five minutes.',
     status: 'for-sale',
     type: 'house',
     kind: 'sale',
@@ -106,7 +106,7 @@ export const properties: Property[] = [
     featured: true,
     agentId: 'agent-1',
     images: [
-      'https://images.unsplash.com/photo-1613490493576-7fde63acd311?q=80&w=1600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1600&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1600&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1600&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=1600&auto=format&fit=crop'
@@ -195,7 +195,7 @@ export const properties: Property[] = [
     title: 'Hayes Valley Garden Apartment',
     description: 'Two-bedroom garden unit steps from Hayes Valley shops and dining.',
     longDescription:
-      'A bright garden-level two-bedroom with private entrance in a beautifully maintained Edwardian. South-facing windows bring all-day sun, and the shared rear garden is yours to enjoy. Walk to Patricia\u2019s Green, NOPA, and the new Hayes Valley pedestrian zone in minutes.',
+      'A bright garden-level two-bedroom with private entrance in a beautifully maintained Edwardian. South-facing windows bring all-day sun, and the shared rear garden is yours to enjoy. Walk to Patricia s Green, NOPA, and the new Hayes Valley pedestrian zone in minutes.',
     status: 'for-rent',
     type: 'apartment',
     kind: 'rent',
@@ -255,7 +255,7 @@ export const properties: Property[] = [
       'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1600&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1600573472556-e636c2acda88?q=80&w=1600&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?q=80&w=1600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75d?q=80&w=1600&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1600&auto=format&fit=crop'
     ],
     amenities: ['GG views', 'Cantilevered deck', 'Media room', 'Guest suite', 'Solar + battery'],
     features: ['Radiant floor heat', 'Triple-pane windows', 'EV charging', 'Smart home automation'],
@@ -303,7 +303,7 @@ export const properties: Property[] = [
     title: 'Mission Bay Penthouse',
     description: 'Top-floor 3BR penthouse with private roof terrace and Chase Center views.',
     longDescription:
-      'The crown jewel of the building — a top-floor three-bedroom penthouse with a private 600 sqft roof terrace overlooking Chase Center and the Bay. Wide-plank oak floors throughout, a chef\u2019s kitchen with paneled appliances, and a primary suite with a steam shower and walk-in closet. Two deeded parking spaces and a large storage unit included.',
+      'The crown jewel of the building — a top-floor three-bedroom penthouse with a private 600 sqft roof terrace overlooking Chase Center and the Bay. Wide-plank oak floors throughout, a chef s kitchen with paneled appliances, and a primary suite with a steam shower and walk-in closet. Two deeded parking spaces and a large storage unit included.',
     status: 'sold',
     type: 'condo',
     kind: 'sale',
@@ -409,7 +409,7 @@ export const properties: Property[] = [
     title: 'Marina Waterfront Loft',
     description: '1BR waterfront loft with Marina Green and Golden Gate views.',
     longDescription:
-      'A rare one-bedroom loft directly on the Marina waterfront with unobstructed views of the Golden Gate Bridge, Alcatraz, and the Marina Green. Floor-to-ceiling windows, a sleek modern kitchen, and a private balcony. Building amenities include a fitness center, residents\u2019 lounge, and secure parking.',
+      'A rare one-bedroom loft directly on the Marina waterfront with unobstructed views of the Golden Gate Bridge, Alcatraz, and the Marina Green. Floor-to-ceiling windows, a sleek modern kitchen, and a private balcony. Building amenities include a fitness center, residents  lounge, and secure parking.',
     status: 'for-rent',
     type: 'condo',
     kind: 'rent',

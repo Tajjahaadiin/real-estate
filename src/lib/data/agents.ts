@@ -5,7 +5,7 @@ export const agents: Agent[] = [
     id: 'agent-1',
     name: 'Amara Okonkwo',
     title: 'Senior Listing Agent',
-    avatar: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f34?q=80&w=400&auto=format&fit=crop',
+    avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400&auto=format&fit=crop',
     phone: '+1 (415) 555-0142',
     email: 'amara@estate-services.example.com',
     bio: 'Amara has closed more than 320 transactions in the Bay Area over the last decade. She specializes in luxury homes and represents both buyers and sellers with a calm, data-driven approach.',
@@ -28,7 +28,7 @@ export const agents: Agent[] = [
   {
     id: 'agent-3',
     name: 'Mei Lin',
-    title: 'Buyer\u2019s Advocate',
+    title: 'Buyer s Advocate',
     avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop',
     phone: '+1 (415) 555-0188',
     email: 'mei@estate-services.example.com',

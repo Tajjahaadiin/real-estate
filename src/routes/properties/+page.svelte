@@ -121,9 +121,11 @@
       <Icon name="chevron-right" class="w-3 h-3" />
       <span class="text-stone-200">Properties</span>
     </nav>
-    <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">Browse Properties</h1>
+    <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight !text-white">
+      Browse Properties
+    </h1>
     <p class="mt-3 text-stone-300 max-w-2xl">
-      Search our full inventory across the Bay Area. Filter by listing type, property type, price, beds and baths to find the homes that match what you\u2019re looking for.
+      Search our full inventory across the Bay Area. Filter by listing type, property type, price, beds and baths to find the homes that match what you re looking for.
     </p>
   </div>
 </section>

@@ -60,7 +60,7 @@
     <SectionHeading
       eyebrow="What we do"
       title="Full-service real estate, end to end"
-      subtitle="Whether you\u2019re buying your first home, selling a long-held investment, or renting out a portfolio, we have a dedicated specialist for the job."
+      subtitle="Whether you re buying your first home, selling a long-held investment, or renting out a portfolio, we have a dedicated specialist for the job."
     />
     <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {#each services as service (service.id)}
@@ -120,7 +120,7 @@
           </span>
           <div>
             <h3 class="font-display font-semibold text-stone-900">Your interests, first</h3>
-            <p class="mt-1 text-sm text-stone-600 leading-relaxed">We will tell you when a property isn\u2019t right, when an offer is too aggressive, or when you should walk away. We earn our commission by protecting you, not by closing at any cost.</p>
+            <p class="mt-1 text-sm text-stone-600 leading-relaxed">We will tell you when a property isn t right, when an offer is too aggressive, or when you should walk away. We earn our commission by protecting you, not by closing at any cost.</p>
           </div>
         </li>
         <li class="flex gap-4">
@@ -152,7 +152,7 @@
     <SectionHeading
       eyebrow="Meet the team"
       title="Agents who actually answer the phone"
-      subtitle="A small, senior team of agents \u2014 each with at least a decade of Bay Area experience. You\u2019ll work with one specialist from first call to closing."
+      subtitle="A small, senior team of agents   each with at least a decade of Bay Area experience. You  work with one specialist from first call to closing."
     />
     <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
       {#each agents as agent (agent.id)}
@@ -168,7 +168,7 @@
     <SectionHeading
       eyebrow="Client stories"
       title="What our clients say"
-      subtitle="Real reviews from buyers, sellers, and landlords we\u2019ve worked with over the last 12 months."
+      subtitle="Real reviews from buyers, sellers, and landlords we ve worked with over the last 12 months."
     />
     <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
       {#each testimonials as t (t.id)}
@@ -185,7 +185,7 @@
       <SectionHeading
         eyebrow="From the blog"
         title="Market intel and advice"
-        subtitle="Practical guides and local market analysis from our agents \u2014 published weekly."
+        subtitle="Practical guides and local market analysis from our agents   published weekly."
         align="left"
       />
       <a href="/blog" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-stone-300 text-stone-800 text-sm font-semibold hover:bg-stone-50 transition-colors self-start md:self-end">

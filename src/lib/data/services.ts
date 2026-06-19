@@ -94,17 +94,17 @@ export const faqs: FaqItem[] = [
   {
     question: 'How do you price a property for sale?',
     answer:
-      'We start with a comparative market analysis (CMA) that looks at recent sales of similar homes within the last 90 days, current competing listings, and your home\u2019s unique features. We then layer in market trends and buyer demand signals to land on a price that maximizes your return without leaving the home sitting stale.'
+      'We start with a comparative market analysis (CMA) that looks at recent sales of similar homes within the last 90 days, current competing listings, and your home s unique features. We then layer in market trends and buyer demand signals to land on a price that maximizes your return without leaving the home sitting stale.'
   },
   {
     question: 'What areas do you cover?',
     answer:
-      'We currently serve 36 cities across Northern California, with a particular depth in San Francisco, Oakland, Berkeley, San Jose, and the surrounding Peninsula. If you\u2019re looking outside our footprint, we can refer you to a vetted partner agent in your area.'
+      'We currently serve 36 cities across Northern California, with a particular depth in San Francisco, Oakland, Berkeley, San Jose, and the surrounding Peninsula. If you re looking outside our footprint, we can refer you to a vetted partner agent in your area.'
   },
   {
     question: 'Do you work with first-time buyers?',
     answer:
-      'Absolutely — first-time buyers are some of our favorite clients. We\u2019ll walk you through pre-approval, help you understand what you can actually afford, and stand by you at inspection and closing so nothing is a surprise.'
+      'Absolutely — first-time buyers are some of our favorite clients. We  walk you through pre-approval, help you understand what you can actually afford, and stand by you at inspection and closing so nothing is a surprise.'
   },
   {
     question: 'How long does a typical transaction take?',
@@ -114,11 +114,11 @@ export const faqs: FaqItem[] = [
   {
     question: 'What does your property management service cost?',
     answer:
-      'Our standard management fee is 8% of monthly collected rent, with no setup fee for portfolios under 10 units. Leasing fees are 75% of one month\u2019s rent and include full tenant screening, lease drafting, and move-in coordination.'
+      'Our standard management fee is 8% of monthly collected rent, with no setup fee for portfolios under 10 units. Leasing fees are 75% of one month s rent and include full tenant screening, lease drafting, and move-in coordination.'
   },
   {
     question: 'Can I list my property for both sale and rent?',
     answer:
-      'In most cases, no — but we can help you decide which path makes more financial sense for your situation. We\u2019ll model both scenarios side by side so you can see the difference in short-term cash flow and long-term equity.'
+      'In most cases, no — but we can help you decide which path makes more financial sense for your situation. We  model both scenarios side by side so you can see the difference in short-term cash flow and long-term equity.'
   }
 ];

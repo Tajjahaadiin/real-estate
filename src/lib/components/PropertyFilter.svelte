@@ -68,7 +68,7 @@
         type="search"
         value={value.q}
         oninput={(e) => update('q', e.currentTarget.value)}
-        placeholder="Search by city, neighborhood, or keyword\u2026"
+        placeholder="Search by city, neighborhood, or keyword "
         class="w-full pl-11 pr-4 py-3 rounded-xl bg-stone-50 border border-stone-200 focus:border-brand-500 focus:bg-white focus:ring-2 focus:ring-brand-100 outline-none transition-all"
       />
     </div>

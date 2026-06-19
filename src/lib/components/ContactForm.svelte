@@ -92,7 +92,7 @@
         />
       </label>
       <label class="flex flex-col gap-1.5">
-        <span class="text-sm font-medium text-stone-700">I\u2019m interested in</span>
+        <span class="text-sm font-medium text-stone-700">I m interested in</span>
         <select
           bind:value={form.interest}
           class="px-4 py-2.5 rounded-lg bg-stone-50 border border-stone-200 focus:border-brand-500 focus:bg-white outline-none transition-all"
@@ -114,7 +114,7 @@
         bind:value={form.message}
         rows="5"
         class="px-4 py-2.5 rounded-lg bg-stone-50 border border-stone-200 focus:border-brand-500 focus:bg-white focus:ring-2 focus:ring-brand-100 outline-none transition-all resize-none"
-        placeholder="Tell us a bit about what you\u2019re looking for\u2026"
+        placeholder="Tell us a bit about what you re looking for "
       ></textarea>
       {#if errors.message}<span class="text-xs text-red-600">{errors.message}</span>{/if}
     </label>
@@ -127,7 +127,7 @@
       <Icon name="arrow-right" class="w-5 h-5" />
     </button>
     <p class="mt-3 text-center text-xs text-stone-500">
-      By submitting this form you agree to our privacy policy. We\u2019ll never share your details.
+      By submitting this form you agree to our privacy policy. We  never share your details.
     </p>
   </form>
 {/if}

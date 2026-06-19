@@ -17,7 +17,7 @@
     <span class="ml-1.5 text-xs font-medium text-stone-500">{testimonial.rating.toFixed(1)}</span>
   </div>
   <blockquote class="mt-4 text-stone-700 leading-relaxed flex-1">
-    \u201C{testimonial.quote}\u201D
+     {testimonial.quote} 
   </blockquote>
   <figcaption class="mt-5 flex items-center gap-3">
     <img src={testimonial.avatar} alt={testimonial.name} class="w-11 h-11 rounded-full object-cover" loading="lazy" />
